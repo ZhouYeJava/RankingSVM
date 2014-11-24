@@ -1,12 +1,12 @@
-###################
-#Sort Optimization#
-###################
+#####################
+#Search Optimization#
+#####################
 
-Author: Zhou Ye (Data Mining Engineer Intern)
+Author: Zhou Ye 
 Date: 2013/8/9
 
 ###Introduction###
-This project is built to satisfy the search ranking of NetEase Cloud Music. The online ranking system at present is a linear structure of which the coefficients are manually adjusted. 
+This project is built to satisfy optimize the seach result for a music search engine. The online ranking system at present is a linear structure of which the coefficients are manually adjusted. 
 This method can be used when the product goes public at first. However, it cannot avoid the human's subjective error and the adjustment is time-consuming. 
 Now based on the click through rate, we develop a machine learning model which can somehow adjust the coefficients by users' taste and more important, it is automatic. 
 
