@@ -1,14 +1,12 @@
-#####################
-#Search Optimization#
-#####################
+###################
+#Ranking SVM Model#
+###################
 
 Author: Zhou Ye 
 Date: 2013/8/9
 
 ###Introduction###
-This project is built to satisfy optimize the seach result for a music search engine. The online ranking system at present is a linear structure of which the coefficients are manually adjusted. 
-This method can be used when the product goes public at first. However, it cannot avoid the human's subjective error and the adjustment is time-consuming. 
-Now based on the click through rate, we develop a machine learning model which can somehow adjust the coefficients by users' taste and more important, it is automatic. 
+This project uses Ranking-SVM(LR) for sorting. The codes is written in Java using WEKA.
 
 ###How To Use###
 There are four input files:
@@ -32,7 +30,5 @@ linux code: sh compile_and_run.sh
 (1) This program generally will not have any problems. Sometimes, especially when the scale of the data set is small, the weight will be zero and WEKA will not show zero weight. Thus when 
 you check the log, if you see "You need to adjust the coefficients manually!", you need to add zero weight to the file Coefficient.txt and rerun the program. 
 (2) You need to set the default weights in the test environment first, then you can run the program
-(3) Due to the privacy problem of company, all data files are not listed. 
+(3) Due to the privacy, all data files are not listed. 
 
-###Contact###
-Email: yezhou199032@gmail.com
